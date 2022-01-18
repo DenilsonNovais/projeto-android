@@ -184,7 +184,7 @@ aside ul {
     columns: 2;
 }
 
-aside a {
+aside > p > a {
     background-color: var(--cor3);
     color: var(--cor5);
     padding: 10px;
@@ -194,7 +194,7 @@ aside a {
     transition-duration: 0.5s;
 }
 
-aside a:hover {
+aside > p > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
 }
